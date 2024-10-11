@@ -1,14 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Dancing+Script:wght@400..700&family=Lobster&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background: url("../img/bg-desktop.jpg") no-repeat top center/cover; 
+    
+}
+
 a {
     text-decoration: none;
 }
 
-body {
-    background: url("../img/bg-desktop.jpg") no-repeat top center/cover; 
-    
+body * {
+    color: white;
+}
+
+p {
+    font-family: 'bowlby one';
+}
+
+.container {
+    max-width: 580px;
+    margin: 50px auto;
+    padding: 0 25px;
+
+}
+
+.perfil {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.perfil img {
+    width: 50%;
+    border-radius: 40%;
 }
